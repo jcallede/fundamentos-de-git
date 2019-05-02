@@ -1,0 +1,18 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.main-wrapper {
+    padding: 1rem 2rem 2rem;
+    border: 1px solid cadetblue;
+}
+
+.result {
+    color: rgb(104, 126, 34);
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 2px solid #BADA55;
+    background-color: rgb(226, 238, 188);
+    font-weight: 600;
+}
