@@ -18,7 +18,10 @@ const generateSequence = e => {
         resultDiv.innerHTML = fibonacci(parseInt(inputValue) - 1);
         resultDiv.style.display = "block";
         resultDiv.classList.remove('error');
-    }   
+        resultDiv.style.whiteSpace = "nowrap";
+        resultDiv.style.overflow = "hidden";
+        resultDiv.style.textOverflow = "ellipsis";
+    }
 
     e.preventDefault();
 }
