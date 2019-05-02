@@ -15,4 +15,11 @@ html {
     border: 2px solid #BADA55;
     background-color: rgb(226, 238, 188);
     font-weight: 600;
+    display: none;
+}
+
+.result.error {
+    color: rgb(238, 59, 59);
+    border: 2px solid rgb(238, 59, 59);
+    background-color: rgb(255, 217, 217);
 }

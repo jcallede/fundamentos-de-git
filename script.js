@@ -9,8 +9,16 @@ const fibonacci = number => {
 const generateSequence = e => {
     const resultDiv = document.querySelector('.result');
     const inputValue = document.getElementById("input").value;
-    
-    resultDiv.innerHTML =  fibonacci(parseInt(inputValue) - 1);
+
+    if (inputValue < 2) {
+        resultDiv.innerHTML = "Please, enter a number higher than 2.";
+        resultDiv.classList.add('error');
+        resultDiv.style.display = "block";
+    } else {
+        resultDiv.innerHTML = fibonacci(parseInt(inputValue) - 1);
+        resultDiv.classList.remove('error');
+        resultDiv.style.display = "block";
+    }
 
     e.preventDefault();
-  }
+}
