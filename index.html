@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci sequence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <a href="./hola-mundo.html">Navigate to "Hello world!" >> </a>
+        <hr>
+        <h1>Fibonacci sequence</h1>
+        <p><em>In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence*, and characterized by the fact that every number after the first two is the sum of the two preceding ones.</em></p>
+        <pre>(*) Also known as the Golden Ratio</pre>
+
+        <form onsubmit="generateSequence(event)">
+            Enter sequence length: <input type="number" id="input">
+            <button type="submit">Generate</button>
+        </form>
+        <div class="result">
+            Here will go the fibonacci sequence.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
