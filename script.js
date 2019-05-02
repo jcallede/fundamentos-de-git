@@ -16,9 +16,9 @@ const generateSequence = e => {
         resultDiv.style.display = "block";
     } else {
         resultDiv.innerHTML = fibonacci(parseInt(inputValue) - 1);
-        resultDiv.classList.remove('error');
         resultDiv.style.display = "block";
-    }
+        resultDiv.classList.remove('error');
+    }   
 
     e.preventDefault();
 }
