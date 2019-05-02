@@ -5,3 +5,12 @@ const fibonacci = number => {
     }
     return arr;
 }
+
+const generateSequence = e => {
+    const resultDiv = document.querySelector('.result');
+    const inputValue = document.getElementById("input").value;
+    
+    resultDiv.innerHTML =  fibonacci(parseInt(inputValue) - 1);
+
+    e.preventDefault();
+  }
